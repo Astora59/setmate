@@ -10,8 +10,10 @@ export default function Header() {
                     <img src= {logo} alt="logo setmate" className={classes.logo}/>
                 </div>
                 <ul>
-                    <li><a href="#">LAUNCHES</a></li>
-                    <Button variant="primary">Clique-moi</Button>;
+                    <li><a href="#">Concept</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><Button variant="outline-dark">Se connecter</Button></li>
+                    <li><Button variant="dark" className={classes.buttonInscription}>S'inscrire</Button></li>
                 </ul>
             </nav> 
         </header>
