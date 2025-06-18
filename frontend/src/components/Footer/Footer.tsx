@@ -10,23 +10,23 @@ export default function Footer() {
         <footer className={classes.footer}>
             <div className={classes.footer_container}>
                 <div className={classes.footer_content_left}>
-                    <h3>Setmate</h3>
+                    <h3 className={classes.footer_title}>Setmate</h3>
                     <p className={classes.footer_text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare cursus sed nunc eget dictum  Sed ornare cursus sed nunc eget dictumd nunc eget dictum  Sed ornare cursus sed nunc eget dictum  </p>
                     <div className={classes.footer_socials}>
-                        <img src={twitter} alt="" />
-                        <img src={facebook} alt="" />
-                        <img src={discord} alt="" />
-                        <img src={instagram} alt="" />
+                        <img src={twitter} alt="" className={classes.icon_social}/>
+                        <img src={facebook} alt="" className={classes.icon_social}/>
+                        <img src={discord} alt="" className={classes.icon_social}/>
+                        <img src={instagram} alt="" className={classes.icon_social} />
                     </div>
                 </div>
                 <div className={classes.footer_content_right}>
-                    <h3>Liens utiles</h3>
+                    <h3 className={classes.footer_title}>Liens utiles</h3>
                     <ul className={classes.footer_links}>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Concept</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Se connecter</a></li>
-                        <li><a href="#">S'inscrire</a></li>
+                        <li><a href="#" className={classes.link_footer}>Accueil</a></li>
+                        <li><a href="#" className={classes.link_footer}>Concept</a></li>
+                        <li><a href="#" className={classes.link_footer}>Contact</a></li>
+                        <li><a href="#" className={classes.link_footer}>Se connecter</a></li>
+                        <li><a href="#" className={classes.link_footer}>S'inscrire</a></li>
                     </ul>
                 </div>
             </div>

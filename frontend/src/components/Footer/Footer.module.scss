@@ -22,6 +22,7 @@
 .footer_text {
     display: flex;
     text-align: start;
+    color: white;
 }
 
 .footer_content_right {
@@ -49,4 +50,22 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+footer {
+    font-size: 11px;
+    background-color: #363434;
+}
+
+.link_footer {
+    font-size: 11px;
+    color: white;
+}
+
+.footer_title {
+    color:white;
+}
+
+.icon_social {
+    filter: brightness(0) invert(1);
 }
