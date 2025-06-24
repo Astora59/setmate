@@ -1,27 +1,22 @@
 import logo from "../../assets/logo_setmate.svg"
 import classes from "./AccountCreation.module.scss"
-import login from "../../assets/login.gif"
+import login from "../../assets/login.jpg"
 
 export default function AccountCreation() {
     return (
         <section className={classes.container}>
             <div>
-                <img src={login} alt="" />
+                <img src={login} alt="login illustration setmate" className={classes.login_illustration} />
             </div>
-            <div>
+            <div className={classes.form_container}>
                 <img src={logo} className={classes.logo}alt="logo setmate" />
                 <div>
-                    <h2>Content de vous revoir !</h2>
-                    <div>
-                        <p>Login</p>
-                        <input type="text" />
+                    <h3>Content de vous revoir !</h3>
+                    <div className={classes.input_container}>
+                        <input type="email" placeholder="Email" className={classes.input}/>
+                        <input type="password" placeholder="Password" className={classes.input} />
                     </div>
-
-                    <div>
-                        <p>Mot de passe</p>
-                        <input type="password" />
-                    </div>
-                    <div>
+                    <div className={classes.button_container}>
                         <button>Se souvenir de moi</button>
                         <p>Mot de passe oublié ?</p>
                     </div>
